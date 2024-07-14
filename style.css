@@ -26,6 +26,10 @@ section{
     font-size: 48px;
 }
 
+.home img {
+    width: 100%;
+}
+
 .home .arrow img{
     width: 60px;
 }
@@ -151,6 +155,12 @@ section{
 
 .form-label {
     font-weight: 700;
+}
+
+@media only screen and (max-width: 768px) {
+    .home img {
+        width: 50%;
+    }
 }
 
 @keyframes upDown{
